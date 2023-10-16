@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>맛집 List</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Css/style_main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="Js/Js_main.js"></script>
+</head>
+<body>
+    <div style="text-align: center;" class="image-container">
+        <img src="Image/main_img.jpg" style="width: 90%; max-height: 500px;">
+        <div class="text-overlay" style="text-align: center;">
+            <h1>나만의 맛집 리스트</h1>
+        </div>
+        <input id="left" type="button" value="&lt;" onclick="moveImage(this)"/>
+        <input id="right" type="button" value="&gt;" onclick="moveImage(this)"/>
+    </div>
+        <ol>
+            <li><a href="korea.html">한식</a></li>
+            <li><a href="western.html">양식</a></li>
+            <li><a href="china.html">중식</a></li>
+            <li><a href="japan.html">일식</a></li>
+        </ol>
+    </div>
+</body>
+</html>
